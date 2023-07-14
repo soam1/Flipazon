@@ -2,6 +2,6 @@
 
 [//]: # (# amazon)
 
-A new Flutter project.
+FlutterFire E com amazon clone.
 
-## Getting Started
+## 
