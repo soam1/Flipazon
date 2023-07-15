@@ -1,6 +1,7 @@
 import 'package:amazon/constants/common_functions.dart';
 import 'package:flutter/material.dart';
 
+import '../../controller/services/auth_services/auth_services.dart';
 import '../../utils/colors.dart';
 import 'auth_screens.dart';
 
@@ -112,7 +113,12 @@ class _OTPScreenState extends State<OTPScreen> {
                 ),
                 CommonFunctions.blankSpace(heightDevice * 0.02, 0),
                 ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    AuthServices.verifyOTP(
+                      context: context,
+                      otp: otpController.text.trim(),
+                    );
+                  },
                   style: ElevatedButton.styleFrom(
                       minimumSize: Size(
                         widthDevice * 0.94,

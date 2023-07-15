@@ -3,6 +3,8 @@ import 'package:amazon/utils/colors.dart';
 import 'package:country_picker/country_picker.dart';
 import 'package:flutter/material.dart';
 
+import '../../controller/services/auth_services/auth_services.dart';
+
 class AuthScreen extends StatefulWidget {
   const AuthScreen({super.key});
 
@@ -224,7 +226,12 @@ class _AuthScreenState extends State<AuthScreen> {
                 ),
                 CommonFunctions.blankSpace(height * 0.02, 0),
                 ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    AuthServices.receiveOTP(
+                        context: context,
+                        mobileNo:
+                            '$currentCountryCode${mobileNumberController.text.trim()}');
+                  },
                   style: ElevatedButton.styleFrom(
                       minimumSize: Size(
                         width * 0.88,
@@ -466,7 +473,12 @@ class _AuthScreenState extends State<AuthScreen> {
                 ),
                 CommonFunctions.blankSpace(height * 0.02, 0),
                 ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    AuthServices.receiveOTP(
+                        context: context,
+                        mobileNo:
+                            '$currentCountryCode${mobileNumberController.text.trim()}');
+                  },
                   style: ElevatedButton.styleFrom(
                       minimumSize: Size(
                         width * 0.88,

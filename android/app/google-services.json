@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "579984809267",
+    "project_id": "flipazon1",
+    "storage_bucket": "flipazon1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579984809267:android:17fd794253e901b70df246",
+        "android_client_info": {
+          "package_name": "com.akashsoam.amazon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579984809267-l4ue1qjamlnhe2205uomnct6f0f7s22u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfISJWzi4gT_1ebCuM5oqm_1UqfhEbdXY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579984809267-l4ue1qjamlnhe2205uomnct6f0f7s22u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
