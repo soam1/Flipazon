@@ -21,6 +21,11 @@ dependencies:
   firebase_auth: ^4.7.0
   fluttertoast: ^8.2.2
   page_transition: ^2.0.9
+  persistent_bottom_nav_bar_v2:
+  carousel_slider:
+  cloud_firestore:
+  firebase_storage:
+  image_picker:
 #  convert: ^3.1.1
 
 dev_dependencies:
@@ -38,7 +43,48 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/amazon_logo.png
+    - assets/images/amazon_black_logo.png
     - assets/images/amazon_splash_screen.png
+    - assets/images/categories/Appliances.png
+    - assets/images/categories/Beauty.png
+    - assets/images/categories/Books.png
+    - assets/images/categories/Business.png
+    - assets/images/categories/Deals.png
+    - assets/images/categories/Electronics.png
+    - assets/images/categories/Fashion.png
+    - assets/images/categories/Furniture.png
+    - assets/images/categories/Home.png
+    - assets/images/categories/miniTV.png
+    - assets/images/categories/Mobiles.png
+    - assets/images/categories/More.png
+    - assets/images/categories/Movies.png
+    - assets/images/categories/Pharmacy.png
+    - assets/images/categories/Prime.png
+    - assets/images/categories/Travel.png
+    - assets/images/carousel_slideshow/1.png
+    - assets/images/carousel_slideshow/2.png
+    - assets/images/carousel_slideshow/3.png
+    - assets/images/carousel_slideshow/4.png
+    - assets/images/carousel_slideshow/5.png
+    - assets/images/carousel_slideshow/6.png
+    - assets/images/carousel_slideshow/7.png
+    - assets/images/carousel_slideshow/8.png
+    - assets/images/carousel_slideshow/9.png
+#    - assets/images/menu_pics
+    - assets/images/offersNsponcered/boat.png
+    - assets/images/offersNsponcered/bose.png
+    - assets/images/offersNsponcered/insurance.png
+    - assets/images/offersNsponcered/kurta.png
+    - assets/images/offersNsponcered/onePlus.png
+    - assets/images/offersNsponcered/sixer.png
+    - assets/images/offersNsponcered/sony.png
+    - assets/images/offersNsponcered/t_shirts.png
+    - assets/images/offersNsponcered/tops.png
+    - assets/images/offersNsponcered/view_all.png
+    - assets/images/todays_deals/todaysDeal0.png
+    - assets/images/todays_deals/todaysDeal1.png
+    - assets/images/todays_deals/todaysDeal2.png
+    - assets/images/todays_deals/todaysDeal3.png
 
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
